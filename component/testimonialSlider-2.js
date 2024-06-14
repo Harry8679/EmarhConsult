@@ -59,14 +59,10 @@ function TestimonialSlider2() {
                           CEO & Founder{" "}
                         </span>
                         <p>
-                          Duis feugiat est tincidunt ligula maximus convallis.
-                          Aenean ultricies, mi non vestibulum auctor, erat
-                          tortor porttitor ipsum, nec dictum tortor sem eget
-                          nunc. Etiam sed facilisis erat. Vestibulum sed posuere
-                          augue, ut molestie erat. Nam ipsum tellus, tempus vel
-                          ante ut, aliquet finibus dui. Proin lacinia, erat ut
-                          feugiat fringilla, tortor eros ultricies sem, sed
-                          finibus massa ex sit amet ligula.
+                          Groupe discipliné, disponible et attentionné dans ce qu'il font.
+                          Toujours prêt à faire des évolutions et des mises à jour si le besoin
+                          se fait ressentir. Equipe professionnelle, acharnée et travailleuse. Ils sont pluridisciplinaires 
+                          et pédagogue. Passionnés de ce qu'ils font, ils arrivent à transmettre cette passion autour d'eux.
                         </p>
                       </div>
                     </div>
@@ -74,7 +70,7 @@ function TestimonialSlider2() {
                   <div className="swiper-slide">
                     <div className="testimonial-4 quote-right">
                       <div className="testimonial-text">
-                        <strong className="testimonial-name">Cak Dikin</strong>
+                        <strong className="testimonial-name">Anonyme</strong>
                         <span className="testimonial-position text-primary m-b20">
                           CEO & Founder{" "}
                         </span>
