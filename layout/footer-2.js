@@ -69,11 +69,11 @@ function Footer2() {
 						<div className="widget widget_services">
 							<h5 className="footer-title">Nos Services</h5>
 							<ul>
-								<li><Link href="#"><a>Développement Web</a></Link></li>
-								<li><Link href="#"><a>Développement Mobile</a></Link></li>
-								<li><Link href="#"><a>Développement Logiciel</a></Link></li>
-								<li><Link href="#"><a>UX/UI Designer</a></Link></li>
-								<li><Link href="#"><a>Formation Enseignant </a></Link></li>
+								<li><Link href="/services-2"><a>Développement Web</a></Link></li>
+								<li><Link href="/services-2"><a>Développement Mobile</a></Link></li>
+								<li><Link href="/services-2"><a>Développement Logiciel</a></Link></li>
+								<li><Link href="/services-2"><a>UX/UI Designer</a></Link></li>
+								<li><Link href="/services-2"><a>Formation Enseignant </a></Link></li>
 							</ul>
 						</div>
                     </div>
@@ -81,10 +81,10 @@ function Footer2() {
 						<div className="widget widget_services">
 						   <h5 className="footer-title">Autres liens</h5>
 							<ul>
-								<li><Link href="#"><a>YouTube</a></Link></li>
-								<li><Link href="#"><a>Instagram</a></Link></li>
-								<li><Link href="#"><a>Twitter - X</a></Link></li>
-								<li><Link href="#"><a>Support </a></Link></li>
+								<li><Link href="https://www.youtube.com/@lahauteurdelaprofondeur1468"><a>YouTube </a></Link></li>
+								<li><Link href="https://www.facebook.com/profile.php?id=100070065353546"><a>Facebook</a></Link></li>
+								<li><Link href="https://www.instagram.com/harrymaccode/"><a>Instagram</a></Link></li>
+								<li><Link href="https://x.com/HarryMacCode"><a>Twitter - X</a></Link></li>
 							</ul>
 						</div>
                     </div>
@@ -98,7 +98,7 @@ function Footer2() {
                     <div className="col-lg-6 col-md-7 text-left"> 
 						<span className="copyright-text">Copyright © 2022 <a href="https://dexignzone.com/" target="_blank">DexignZone</a>. All rights reserved.</span> 
 					</div>
-					<div className="col-lg-6 col-md-5 text-right"> 
+					<div className="col-lg-6 col-md-5 text-right">
 						<div className="dlab-social-icon">
 							<ul>
 								<li><a className="fa fa-facebook" href="https://www.facebook.com/profile.php?id=100070065353546/"></a></li>

@@ -21,7 +21,7 @@ function Header2() {
                                 <ul>
                                     <li>
                                         <i className="la la-envelope"></i>{" "}
-                                        info@ebangmezui-consulting.fr
+                                        contact@emarhprogramming.com
                                     </li>
                                     <li>
                                         <i className="la la-phone-volume"></i> +33
