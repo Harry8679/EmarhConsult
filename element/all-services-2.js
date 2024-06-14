@@ -65,7 +65,8 @@ function AllServices2() {
 							<div className="wraper-effect"></div>
 							<div className="icon-content">
 								<h4 className="dlab-title m-b15">Développement Mobile</h4>
-								<p>Vestibulum a efficitur ex. Ut iaculis dapibus iaculis. Praesent lacus magna, rhoncus quis magna quis, pellentesque luctus leoam iaculis venenatis.</p>
+								<p>Pour nos clients, nous développons des applications mobiles pour iOS et Android. Nous pouvons vous accompagner également dans la conception 
+									et la réalisation</p>
 							</div>
 						</div>
 					</div>
@@ -79,7 +80,8 @@ function AllServices2() {
 							<div className="wraper-effect"></div>
 							<div className="icon-content">
 								<h4 className="dlab-title m-b15">UX/UI Design</h4>
-								<p>Vestibulum a efficitur ex. Ut iaculis dapibus iaculis. Praesent lacus magna, rhoncus quis magna quis, pellentesque luctus leoam iaculis venenatis.</p>
+								<p>Tout site qui se prétend digne et présentable a besoin d'être réalisé en maquettes au préalable avant réalisation. Pour cela, nous pouvons réaliser 
+								des maquettes à votre convenance.</p>
 							</div>
 						</div>
 					</div>
