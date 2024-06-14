@@ -82,7 +82,7 @@ function Header2() {
                             <div className="extra-nav">
                                 <div className="extra-cell">
                                 <Link href="/contact-us-2">
-                                        <a className="btn btn-primary rounded-xl gradient shadow">Get A Quote</a>
+                                        <a className="btn btn-primary rounded-xl gradient shadow">Harry MacCode</a>
                                     </Link>
                                 </div>
                             </div>

@@ -13,12 +13,12 @@ function ContactUs2() {
 		<div className="dlab-bnr-inr style-2 overlay-gradient-dark" style={{"backgroundImage":"url(images/banner/bnr1.jpg)"}}>
 			<div className="container">
 				<div className="dlab-bnr-inr-entry">
-					<h1>Contact Us</h1>
+					<h1>Nous Contacter</h1>
 					{/* <!-- Breadcrumb Row --> */}
 					<nav aria-label="breadcrumb" className="breadcrumb-row">
 						<ul className="breadcrumb">
-							<li className="breadcrumb-item"><Link href="/"><a>Home</a></Link></li>
-							<li className="breadcrumb-item active" aria-current="page">Contact Us</li>
+							<li className="breadcrumb-item"><Link href="/"><a>EM Consulting</a></Link></li>
+							<li className="breadcrumb-item active" aria-current="page">Nous Contacter</li>
 						</ul>
 					</nav>
 					{/* <!-- Breadcrumb Row End --> */}
