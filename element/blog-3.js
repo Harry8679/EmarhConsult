@@ -53,9 +53,9 @@ function Blog3() {
 										<li className="post-comment"><a href="#"><i className="flaticon-speech-bubble"></i><span>15</span></a></li>
 										<li className="post-share"><i className="flaticon-share"></i>
 											<ul>
-												<li><a className="fa fa-facebook" href="https://www.facebook.com/"></a></li>
-												<li><a className="fa fa-twitter" href="https://twitter.com/login?lang=en"></a></li>
-												<li><a className="fa fa-linkedin" href="https://www.linkedin.com/login"></a></li>
+											<li><a className="fa fa-facebook" href="https://www.facebook.com/profile.php?id=100070065353546/"></a></li>
+											<li><a className="fa fa-instagram" href="https://www.instagram.com/harrymaccode/"></a></li>
+											<li><a className="fa fa-twitter" href="https://x.com/HarryMacCode"></a></li>
 											</ul>
 										</li>
 									</ul>

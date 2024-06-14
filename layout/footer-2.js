@@ -101,9 +101,9 @@ function Footer2() {
 					<div className="col-lg-6 col-md-5 text-right"> 
 						<div className="dlab-social-icon">
 							<ul>
-								<li><a className="fa fa-facebook" href="https://en-gb.facebook.com/"></a></li>
-								<li><a className="fa fa-instagram" href="https://www.instagram.com/"></a></li>
-								<li><a className="fa fa-twitter" href="https://twitter.com/login?lang=en"></a></li>
+								<li><a className="fa fa-facebook" href="https://www.facebook.com/profile.php?id=100070065353546/"></a></li>
+								<li><a className="fa fa-instagram" href="https://www.instagram.com/harrymaccode/"></a></li>
+								<li><a className="fa fa-twitter" href="https://x.com/HarryMacCode"></a></li>
 							</ul>
 						</div>
 					</div>

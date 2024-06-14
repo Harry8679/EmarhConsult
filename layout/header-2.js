@@ -34,19 +34,19 @@ function Header2() {
                                     <li>
                                         <a
                                             className="fa fa-facebook"
-                                            href="https://en-gb.facebook.com/"
+                                            href="https://www.facebook.com/profile.php?id=100070065353546/"
                                         ></a>
                                     </li>
                                     <li>
                                         <a
                                             className="fa fa-instagram"
-                                            href="https://www.instagram.com/"
+                                            href="https://www.instagram.com/harrymaccode/"
                                         ></a>
                                     </li>
                                     <li>
                                         <a
                                             className="fa fa-twitter"
-                                            href="https://twitter.com/login?lang=en"
+                                            href="https://x.com/HarryMacCode"
                                         ></a>
                                     </li>
                                 </ul>
@@ -54,6 +54,9 @@ function Header2() {
                         </div>
                     </div>
                 </div>
+                {/* <li><a className="fa fa-facebook" href="https://www.facebook.com/profile.php?id=100070065353546/"></a></li>
+								<li><a className="fa fa-instagram" href="https://www.instagram.com/harrymaccode/"></a></li>
+								<li><a className="fa fa-twitter" href="https://x.com/HarryMacCode"></a></li> */}
                 {/* <!-- Main Header --> */}
                 <div className={`sticky-header main-bar-wraper navbar-expand-lg ${scroll ? "is-fixed" : ""}`}>
                     <div className="main-bar clearfix ">
