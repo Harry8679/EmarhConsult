@@ -1,10 +1,60 @@
+import React, { useState } from 'react';
+import emailjs from 'emailjs-com';
 import ReCAPTCHA from "react-google-recaptcha";
+// import dotenv from 'dotenv';
 
-function onChange(value) {
-	console.log("Captcha value:", value);
-  }
+// dotenv.config('../.env');
+
+// function onChange(value) {
+// 	console.log("Captcha value:", value);
+//   }
 
 function Quote2() {
+	// console.log(process.env.SERVICE_ID, process.env.TEMPLATE_ID, process.env.USER_ID);
+	const [formData, setFormData] = useState({
+		first_name: '',
+		last_name: '',
+		email: '',
+		subject: '',
+		phone: '',
+		message: ''
+	});
+
+	const handleChange = (e) => {
+		const { name, value } = e.target;
+		setFormData({
+			...formData,
+			[name]: value
+		});
+	}
+
+	const handleSubmit = (e) => {
+		e.preventDefault();
+
+		const serviceId = 'service_44jhzu5';
+		const templateId = 'template_mp35jqk';
+		const userId = 'JteDhGhMD1EsJzYR_';
+
+		emailjs.send(serviceId, templateId, formData, userId)
+			.then((response) => {
+				console.log('SUCCESS!', response.status, response.text);
+				alert('Message envoyé avec succès!');
+			})
+			.catch((error) => {
+				console.error('FAILED...', error);
+				alert('Échec de l\'envoi du message, veuillez réessayer.');
+			});
+
+			setFormData({
+			  first_name: '',
+			  last_name: '',
+			  email: '',
+			  subject: '',
+			  phone: '',
+			  message: ''
+		});
+  };
+  const { first_name, last_name, email, subject, phone, message } = formData;
 	return (
 		<>
 			<div className="content-inner" style={{"backgroundImage":"url(images/background/bg2.png)","backgroundRepeat":"no-repeat"}}>
@@ -22,7 +72,46 @@ function Quote2() {
 						</div>
 					</div>
 					<div className="col-lg-6 m-b30 wow fadeIn" data-wow-duration="2s" data-wow-delay="0.2s">
-						<form className="dlab-form dzForm" method="POST" action="script/contact.php">
+						<form className="dlab-form dzForm" onSubmit={handleSubmit}>
+						<div className="dzFormMsg"></div>
+							<input type="hidden" className="form-control" name="dzToDo" value="Contact" />
+							<div className="row">
+								<div className="col-sm-6">
+									<div className="input-group">
+										<input id="first_name" name="first_name" value={first_name} onChange={handleChange} required type="text" className="form-control" placeholder="Votre prénom" />
+									</div>
+								</div>
+								<div className="col-sm-6">
+									<div className="input-group">
+										<input id="last_name" name="last_name" value={last_name} onChange={handleChange} required type="text" className="form-control" placeholder="Votre nom" />
+									</div>
+								</div>
+								<div className="col-sm-6">
+									<div className="input-group">
+										<input nid="email" name="email" value={email} onChange={handleChange} required type="text" className="form-control" placeholder="Votre email" />
+									</div>
+								</div>
+								<div className="col-sm-6">
+									<div className="input-group">
+										<input id="phone" name="phone" value={phone} onChange={handleChange} required type="text" className="form-control" placeholder="Votre phone" />
+									</div>
+								</div>
+								<div className="col-sm-6">
+									<div className="input-group">
+										<input id="subject" name="subject" value={subject} onChange={handleChange} required type="text" className="form-control" placeholder="Titre du projet" />
+									</div>
+								</div>
+								<div className="col-sm-12">
+									<div className="input-group">
+										<textarea id="message" name="message" value={message} onChange={handleChange} required className="form-control" placeholder="Message"></textarea>
+									</div>
+								</div>
+								<div className="col-sm-12 mt-2">
+									<button name="submit" type="submit" value="Submit" className="btn btn-primary gradient border-0 rounded-xl">Envoyer</button>
+								</div>
+							</div>
+						</form>
+						{/* <form className="dlab-form dzForm" method="POST" action="script/contact.php">
 							<div className="dzFormMsg"></div>
 							<input type="hidden" className="form-control" name="dzToDo" value="Contact" />
 							<div className="row">
@@ -106,7 +195,7 @@ function Quote2() {
 									<button name="submit" type="submit" value="Submit" className="btn btn-primary gradient border-0 rounded-xl">Submit Now</button>
 								</div>
 							</div>
-						</form>
+						</form> */}
 					</div>
 				</div>
 			</div>

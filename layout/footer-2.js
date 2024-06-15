@@ -16,7 +16,7 @@ function Footer2() {
 							<div className="dzSubscribeMsg"></div>
 							<div className="form-group">
 								<div className="input-group">
-									<input name="dzEmail" required="required" type="email" className="form-control" placeholder="Votre adresse email"/>
+									<input name="dzEmail" required="required" type="email" className="form-control" placeholder="Indisponible pour le moment ..."/>
 									<div className="input-group-addon">
 										<button name="submit" value="Submit" type="submit" className="btn btn-primary gradient fa fa-paper-plane-o"></button>
 									</div>
