@@ -65,8 +65,9 @@ function Header2() {
                             <div className="logo-header mostion logo-dark">
                                 <Link href="/">
                                     <a>
-                                        <img className="custom-logo-white" src="images/logo-white.png" alt="" />
-                                        <img className="custom-logo" src="images/logo-2.png" alt="" />
+                                        {/* <img className="custom-logo-white" src="images/logo-white.png" alt="" /> */}
+                                        <img className="custom-logo-white" src="images/logo-transparent-png.png" alt="" />
+                                        <img className="custom-logo" src="images/logo-transparent-png.png" style={{ height:'90px', width: '90px' }} alt="" />
                                     </a>
                                 </Link>
                             </div>
