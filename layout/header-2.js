@@ -54,10 +54,6 @@ function Header2() {
                         </div>
                     </div>
                 </div>
-                {/* <li><a className="fa fa-facebook" href="https://www.facebook.com/profile.php?id=100070065353546/"></a></li>
-								<li><a className="fa fa-instagram" href="https://www.instagram.com/harrymaccode/"></a></li>
-								<li><a className="fa fa-twitter" href="https://x.com/HarryMacCode"></a></li> */}
-                {/* <!-- Main Header --> */}
                 <div className={`sticky-header main-bar-wraper navbar-expand-lg ${scroll ? "is-fixed" : ""}`}>
                     <div className="main-bar clearfix ">
                         <div className="container clearfix">
